@@ -24,3 +24,14 @@ opposite
 '''
 
 #start writing your code below
+num = int(input("Enter a number: "))
+num1 = int(input("Enter another number: "))
+
+if num == 0 or num1 == 0:
+    print("zero")
+elif num1 > 0 and num > 0:
+    print("positive")
+elif num1 < 0 and num < 0:
+    print("negative")
+elif num1 + num == 0:
+    print("opposite")
